@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1600px) and (min-width: 1200px){
+	body{
+		zoom:0.75;
+		-moz-transform: scale(0.75);
+	}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1024px){
+	body{
+		zoom:0.6;
+		-moz-transform: scale(0.6);
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 800px){
+	body{
+		zoom:0.55;
+		-moz-transform: scale(0.55);
+	}
+}
+
+@media screen and (max-width: 800px) and (min-width: 680px){
+	body{
+		zoom:0.45;
+		-moz-transform: scale(0.45);
+	}
+}
+
+@media screen and (max-width: 680px){
+	body{
+		zoom:0.35;
+		-moz-transform: scale(0.35);
+	}
+}
+
+body{
+	width: 1920px;
+	height: 1080px;
+	background: url('../images/background.png');
+	margin-left: 0px;
+	margin-top: 0px;
+}
+div#interface{
+	width: 1820px;
+	height: 970px;
+	margin: 40px auto 0px 40px;
+	
+}
+nav#menu li{
+	margin: 40px 20px 0px 20px;
+	display: block;
+	text-decoration: none;
+}
+img#titulo{
+	margin: 60px 0px 60px 60px;
+}
+img#bt_sessao:hover{
+	content: url('../images/menu/sessao_hover.png');
+}
+img#button_sessao:active{
+	content: url('../images/menu/sessao_active.png');
+}
+img#bt_minicurso:hover{
+	content: url('../images/menu/minicursos_hover.png');
+}
+img#bt_minicurso:active{
+	content: url('../images/menu/minicursos_active.png');
+}
+img#bt_comissao:hover{
+	content: url('../images/menu/comissao_hover.png');
+}
+img#bt_comissao:active{
+	content: url('../images/menu/comissao_active.png');
+}
+img#bt_static:hover{
+	content: url('../images/menu/ficha_hover.png');
+}
+img#bt_static:active {
+	content: url('../images/menu/ficha_active.png');
+}
+
+section#corpo{
+	display: block;
+	width: 570px;
+	height: 970px;
+	float: left;
+	border: none;
+	border-radius: 4em 0em 0em 4em;
+	background: rgba(255,255,255,0.65);
+}
+
+figure.foto-mac{
+	margin: 200px 0px 60px 60px;
+}
+
+aside#lateral{
+	display: block;
+	width: 1225px;
+	height: 970px;
+	float: right;
+	border: none;
+	border-radius: 0em 4em 4em 0em;
+	background: rgba(255,255,255,0.65);
+}
+
+iframe#frame-spec::-webkit-scrollbar{
+	display: none;
+
+}

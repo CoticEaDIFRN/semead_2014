@@ -1,0 +1,16 @@
+[autorun]
+open=command /c start /max INICIAR.html
+ShellExecute=INICIAR.html
+
+<script type="text/javascript">
+<!--
+if (document.all || document.layers)
+{
+  window.moveTo(0,0);
+  window.resizeTo(screen.availWidth,screen.availHeight)
+} else if (window.screen) {
+  window.moveTo(0,0);
+  window.outerHeight = screen.availHeight;
+  window.outerWidth = screen.availWidth;
+}
+//-->

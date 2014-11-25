@@ -1,0 +1,414 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: titles;
+    src: url(../fonts/futura-condensed-extrabold.ttf);
+}
+
+@font-face {
+    font-family: subtitles;
+    src: url(../fonts/futura-condensed-medium.ttf);
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1200px){
+	body{
+		zoom:1;
+		-moz-transform: scale(1);
+	}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1024px){
+		body{
+		zoom:1;
+		-moz-transform: scale(1);
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 800px){
+	body{
+		zoom:0.7;
+		-moz-transform: scale(0.7);
+	}
+}
+
+@media screen and (max-width: 800px) and (min-width: 680px){
+	body{
+		zoom:0.55;
+		-moz-transform: scale(0.55);
+	}
+}
+
+@media screen and (max-width: 680px){
+	body{
+		zoom:0.4;
+		-moz-transform: scale(0.4);
+	}
+}
+
+body{
+	width: 1225px;
+	height: 970px;
+	margin-left: 0;
+}
+
+img#lt{
+	width: 1225px;
+	height: auto;
+}
+
+figure.foto-mac{
+	margin: 0 0 50px 230px; 
+}
+
+div.org{
+	margin-right: 80px;
+	margin-left: 60px;
+	float: left;
+	width: 270px;
+	height: auto;
+}
+
+div.apoio{
+	float: left;
+	width: 270px;
+	height: auto;
+}
+
+div.list{
+	margin-left: 100px;	
+}
+
+div.list_lt1, div.list_lt2, div.list_lt3, div.list_lt4{
+	margin-left: 100px;	
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:active{
+	text-decoration: none;
+	color: black;	
+}
+
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+#object_one{
+	padding-top: 60px;
+}
+
+#object_two, #object_three, #object_four, #object_five, #object_six{
+	padding-top: 65px;
+}
+
+#lt1_one, #lt1_two, #lt1_three, #lt1_four, #lt1_five, #lt1_six, #lt1_seven,
+#lt1_eight{
+	padding-top: 20px;
+}
+
+#lt2_one, #lt2_two, #lt2_three, #lt2_four, #lt2_five, #lt2_six, #lt2_seven,
+#lt2_eight, #lt2_nine, #lt2_ten, #lt2_eleven, #lt2_twelve, #lt2_thirteen, #lt2_fourteen,
+#lt2_fiveteen, #lt2_sixteen, #lt2_seventeen, #lt2_eighteen, #lt2_nineteen, #lt2_twenty, #lt2_twenty_one,
+#lt2_twenty_two, #lt2_twenty_three, #lt2_twenty_four, #lt2_twenty_five{
+	padding-top: 20px;
+}
+
+#lt3_one, #lt3_two, #lt3_three, #lt3_four, #lt3_five, #lt3_six, #lt3_seven,
+#lt3_eight, #lt3_nine, #lt3_ten, #lt3_eleven, #lt3_twelve, #lt3_threeteen, #lt3_fourteen,
+#lt3_fiveteen, #lt3_sixteen, #lt3_seventeen, #lt3_eighteen, #lt3_nineteen, #lt3_twenty, #lt3_twenty_one,
+#lt3_twenty_two, #lt3_twenty_three, #lt3_twenty_four, #lt3_twenty_five{
+	padding-top: 20px;	
+}
+
+#lt4_one, #lt4_two, #lt4_three, #lt4_four, #lt4_five, #lt4_six, #lt4_seven,
+#lt4_eight, #lt4_nine, #lt4_ten, #lt4_eleven, #lt4_twelve, #lt4_threeteen, #lt4_fourteen,
+#lt4_fiveteen, #lt4_sixteen, #lt4_seventeen, #lt4_eighteen, #lt4_nineteen, #lt4_twenty{
+	padding-top: 20px;
+}
+
+#lt1_1_next{
+	margin-top: 20px;
+	margin-left: 1080px
+}
+
+#lt2_1_next{
+	margin-top: 15px;
+	margin-left: 1080px
+}
+
+#lt2_2_next{
+	float: left;
+	margin-top: 20px;
+	margin-left: 930px;
+}
+
+#lt2_3_next{
+	float: left;
+	margin-top: 15px;
+	margin-left: 930px;	
+}
+
+#lt3_1_next{
+	margin-top: 20px;
+	margin-left: 1080px
+}
+
+#lt3_2_next{
+	margin-top: 25px;
+	margin-left: 930px
+}
+
+#lt3_3_next{
+	margin-top: 20px;
+	margin-left: 930px
+}
+
+#lt4_1_next{
+	margin-top: 20px;
+	margin-left: 1080px
+}
+
+#lt4_2_next{
+	margin-top: 5px;
+	margin-left: 930px
+}
+
+#lt1_2_back{
+	margin-top: 660px;
+	margin-left: 100px;
+}
+
+#lt2_2_back{
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+#lt2_3_back{
+	float: left;
+	margin-top: 15px;
+	margin-left: 100px;	
+}
+
+#lt2_4_back{
+	margin-top: 340px;
+	margin-left: 100px;	
+}
+
+#lt3_2_back{
+	margin-left: 100px;	
+	margin-top: 25px;
+}
+
+#lt3_3_back{
+	margin-top: 20px;
+	margin-left: 100px;	
+}
+
+#lt3_4_back{
+	margin-top: 330px;
+	margin-left: 100px;	
+}
+
+#lt4_2_back{
+	margin-top: 5px;
+	margin-left: 100px
+}
+
+#lt4_3_back{
+	margin-top: 125px;
+	margin-left: 100px
+}
+
+
+div.pdf{
+	float: left;
+}
+
+img#pdf_img{
+	margin-right: 20px;
+}
+
+div.column_one{
+	margin-top: 5px;
+}
+
+p#title{
+	margin-bottom: 10px;
+	font-size: 15pt;
+	font-family: titles;
+}
+
+p#bold{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-family: titles;
+	font-size: 14pt;
+}
+
+p#bold_esp{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-family: titles;
+	font-size: 14pt;
+}
+p#bold_down{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: titles;
+	font-size: 14pt;	
+}
+
+p#medium{
+	margin-top: 0px;
+	font-family: subtitles;
+	font-size: 14pt;
+}
+
+p#medium_esp{
+	margin-top: 0px;
+	margin-bottom: 6px;
+	font-family: subtitles;
+	font-size: 14pt;
+}
+
+div.column_one, div.column_two, div.column_three{
+	margin-left: 50px;
+	float: left;
+	width: 330px;
+	height: 970px;
+}
+
+div.column_four{
+	margin-top: 30px;
+	margin-left: 50px;
+	width: 330px;
+	height: 900px;	
+}
+
+div#coordenacao, div#comissao_org, div#comissao_cient, div#comissao_infra, div#comissao_divul,
+div#comissao_tec, div#secretaria, div#comissao_apoiotec, div#comissao_equipe, div#comissao_avaliacao{
+	margin-bottom: 35px;	
+}
+
+p#bold_title_esp{
+	margin-bottom: 0;
+	font-family: titles;
+	font-size: 14pt;
+}
+
+p#bold_title_down{
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-family: titles;
+	font-size: 14pt;
+}
+
+p#bold_title{
+	margin-bottom: 5px;
+	font-family: titles;
+	font-size: 14pt;
+}
+
+p#medium_subtitle{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: subtitles;
+	font-size: 14pt;
+}
+
+p#medium_subtitle_cont{
+	padding-top: 30px;
+	margin-bottom: 0;
+	font-family: subtitles;
+	font-size: 14pt;
+}
+
+#comissao_1_next{
+	margin-top: 910px;
+}
+
+#comissao_2_back{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+#title_ficha{
+	padding-top: 120px;
+	font-family: titles;
+	font-size: 45pt;
+	text-align: center;
+}
+
+#logo_ifrn{
+	width: 240px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 220px;
+}
+
+#column_left{
+	padding-right: 15px;
+	text-align: right;
+	float: left;
+	width: 300px;
+	height: 500px;
+}
+
+#column_right{
+	float: left;
+	width: 370px;
+	height: 500px;	
+}
+
+#text_body{
+	font-family: subtitles;
+	font-size: 14pt;
+}
+
+#text_gov{
+	font-family: subtitles;
+	font-size: 14pt;
+	margin-bottom: 25px;
+}
+
+
+#text_subtitle{
+	font-family: subtitles;
+	font-size: 14pt;
+	margin-top: 0;
+}
+
+#text_title{
+	font-family: titles;
+	font-size: 14pt;
+	margin-bottom: 0;
+}
+
+#footer{
+	text-align: right;
+	margin-right: 50px;
+	font-family: subtitles;
+}
+
+#table{
+	float: right;
+	margin-right: 50px;
+	margin-top: 110px;
+	border: 3px solid black;
+	width: 470px;
+	height: auto;
+}
+
+article {
+	margin-bottom: 500px;
+}
